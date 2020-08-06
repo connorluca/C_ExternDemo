@@ -17,8 +17,10 @@
 /*
  * 
  */
+extern i;
+//already declared as int in other file unnecessary here.
 int main(int argc, char** argv) {
 
-    return (EXIT_SUCCESS);
-}
+    printf("value of the external integer is = %d\n", i);
+   return 0;}
 
